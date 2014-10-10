@@ -1,0 +1,16 @@
+{
+  "name": "sub-kraken",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-sub": "node node_modules/sub-kraken/index.js"
+  },
+  "author": "Jean-Charles Sisk <jeancharles@paypal.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.9.6",
+    "kraken-js": "^1.0.3"
+  }
+}
